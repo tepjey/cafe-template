@@ -1,0 +1,271 @@
+{
+  "cafe": {
+    "name": "RBSB Cafe",
+    "description": "RBSB Café is a casual and affordable spot offering a diverse menu featuring Malaysian, Indonesian, and international dishes. It's the perfect place for anyone seeking delicious and wallet-friendly food.",
+    "location": "CFS IIUM, Gambang Campus",
+    "peak_hour": ["12:00 PM - 2:00 PM","7:00 PM - 10:00 PM"],
+    "opening_hours": {
+      "Monday": "8:00 AM - 10:00 PM",
+      "Tuesday": "8:00 AM - 10:00 PM",
+      "Wednesday": "8:00 AM - 10:00 PM",
+      "Thursday": "8:00 AM - 4:00 PM",
+      "Friday": "8:00 AM - 10:00 PM",
+      "Saturday": "8:00 AM - 10:00 PM",
+      "Sunday": "8:00 AM - 10:00 PM"
+    },
+    "contact": {
+      "phone": "+60123456789",
+      "email": "iKl4l@example.com",
+      "website": "www.rbsbcafe.com",
+      "social_media": {
+        "facebook": "https://www.facebook.com/rbsbcafe",
+        "instagram": "https://www.instagram.com/rbsbcafe",
+        "twitter": "https://twitter.com/rbsbcafe"
+      }
+    },
+    "best_sellers": [
+      "Nasi Ayam Geprek",
+      "Claypot",
+      "Nasi Kerabu",
+      "Waffles"
+    ],
+    "promotions": {
+      "discount": "Collect 10 stamps to get RM6.00 off your next meal"
+    },
+    "menu": [
+      {
+        "item": "Nasi Ayam",
+        "price": "RM 6.50",
+        "description": "A traditional Malaysian dish with rice and chicken",
+        "ingredients": "Steamed rice, fried chicken, soy sauce, cucumber, chili sauce, chicken broth",
+        "calories": 600,
+        "privilege": "Free drink",
+        "allergy_info": "Contains soy sauce and chicken",
+        "prep_time": "10 minutes"
+      },
+      {
+        "item": "Nasi Ayam Geprek",
+        "price": "RM 7.00",
+        "description": "A spicy version of Nasi Ayam with a crispy fried chicken and sambal geprek",
+        "ingredients": "Steamed rice, crispy fried chicken, sambal geprek, chicken broth, cucumber, lettuce, fried tempeh",
+        "calories": 700,
+        "privilege": "Free drink",
+        "allergy_info": "Contains spicy sambal and chicken",
+        "prep_time": "15 minutes"
+      },
+      {
+        "item": "Nasi Ayam Penyet",
+        "price": "RM 7.00",
+        "description": "A smashed fried chicken served with rice and sambal",
+        "ingredients": "Steamed rice, smashed fried chicken, sambal, chicken broth, cucumber, lettuce",
+        "calories": 700,
+        "privilege": "Free drink",
+        "allergy_info": "Contains spicy sambal and chicken",
+        "prep_time": "15 minutes"
+      },
+      {
+        "item": "Claypot",
+        "options": ["rice", "noodles"],
+        "price": "RM 6.00",
+        "description": "A hot claypot dish with rice or noodles and various toppings",
+        "ingredients": "Rice/noodles, chicken, vegetables, soy sauce, claypot seasoning, mushrooms",
+        "calories": 800,
+        "allergy_info": "Contains soy sauce, mushrooms and chicken",
+        "availability": "Only available during weekends",
+        "prep_time": "20 minutes"
+      },
+      {
+        "item": "Nasi Kerabu",
+        "price": "RM 6.50",
+        "description": "A traditional Malaysian rice dish with herbs and spices",
+        "ingredients": "Blue rice, fried chicken, kerabu salad, sambal, coconut flakes",
+        "calories": 700,
+        "privilege": "Free drink",
+        "allergy_info": "Contains coconut and chicken",
+        "prep_time": "20 minutes"
+      },
+      {
+        "item": "Ayam Goreng Crispy",
+        "price": "RM 4.50",
+        "description": "Crispy fried chicken full of spices",
+        "ingredients": "Chicken, flour, spices, oil",
+        "calories": 400,
+        "allergy_info": "Contains spices and chicken",
+        "prep_time": "10 minutes"
+      },
+      {
+        "item": "Nasi Kukus",
+        "price": "RM 6.50",
+        "description": "A traditional Malaysian rice dish with Ayam berempah and curry",
+        "ingredients": "Steamed rice, Ayam berempah, curry, cucumber, sambal belacan",
+        "calories": 700,
+        "privilege": "Free drink",
+        "allergy_info": "Contains curry and chicken",
+        "prep_time": "20 minutes"
+      },
+      {
+        "item": "Indomie Telur",
+        "price": "RM 4.00",
+        "description": "A popular Indonesian fried noodle dish with eggs",
+        "ingredients": "Indomie noodles, eggs, soy sauce, vegetables",
+        "calories": 500,
+        "allergy_info": "Contains soy sauce and eggs",
+        "add-on": "Add fried egg for RM 1.00",
+        "prep_time": "5 minutes"
+      },
+      {
+        "item": "Indomie Ayam Geprek",
+        "price": "RM 7.50",
+        "description": "A spicy fried noodle dish with crispy chicken and sambal geprek",
+        "ingredients": "Indomie noodles, crispy fried chicken, sambal geprek, vegetables",
+        "calories": 700,
+        "privilege": "Free drink",
+        "allergy_info": "Contains spicy sambal and chicken",
+        "add-on": "Add fried egg for RM 1.00",
+        "prep_time": "10 minutes"
+      },
+      {
+        "item": "Bakwan Goreng",
+        "price": "RM 2.00 for 3 pieces",
+        "description": "Indonesian fried vegetable fritters",
+        "ingredients": "Vegetables, flour, spices, oil",
+        "calories": 300,
+        "allergy_info": "Contains flour and spices",
+        "availability": "Only available during weekends",
+        "prep_time": "5 minutes"
+      },
+      {
+        "item": "Bakso",
+        "price": "RM 6.00",
+        "description": "Indonesian meatball soup with noodles",
+        "ingredients": "Meatballs, steamed meat, noodles, broth, vegetables, soy sauce, chili sauce",
+        "calories": 600,
+        "allergy_info": "Contains soy sauce and meat",
+        "prep_time": "15 minutes"
+      },
+      {
+        "item": "Mee Kari",
+        "options": ["noodles", "kuetiau", "bihun"],
+        "price": "RM 6.50",
+        "description": "A spicy noodle soup with curry and chicken",
+        "ingredients": "Noodles, curry, chicken, vegetables, steamed egg",
+        "calories": 700,
+        "allergy_info": "Contains egg and chicken",
+        "availability": "Only available during weekends",
+        "prep_time": "20 minutes"
+      },
+      {
+        "item": "Mee Sup",
+        "options": ["noodles", "kuetiau", "bihun"],
+        "price": "RM 6.50",
+        "description": "A clear noodle soup with chicken and vegetables",
+        "ingredients": "Noodles, chicken, vegetables, broth, steamed egg",
+        "calories": 600,
+        "allergy_info": "Contains egg and chicken",
+        "availability": "Only available during weekends",
+        "prep_time": "15 minutes"
+      },
+      {
+        "item": "Nasi Lemak",
+        "price": "RM 4.00",
+        "description": "A traditional Malaysian dish with rice, sambal, and fried egg",
+        "ingredients": "Steamed rice, sambal, fried egg, cucumber, peanuts, fried anchovies",
+        "calories": 500,
+        "allergy_info": "Contains egg, peanuts, anchovies and coconut and chicken",
+        "add-on": "Add fried chicken for RM 3.00, add telur puyuh for RM 3.00, add sambal sotong for RM 3.00, add sambal udang for RM 3.00, add sambal kerang for RM 3.00, add telur mata for RM 1.00",
+        "prep_time": "15 minutes"
+      },
+      {
+        "item": "Burger",
+        "options": ["Chicken Burger", "Meat Burger"],
+        "price": "RM 4.00",
+        "description": "A classic Ramly burger with a juicy patty and fresh vegetables",
+        "ingredients": "Bread, meat, lettuce, tomato, mayonnaise, ketchup",
+        "calories": 400,
+        "allergy_info": "Contains meat",
+        "add-on": "Add cheese for RM 1.00, add egg for RM 1.00, add extra patty for RM 2.00",
+        "prep_time": "10 minutes"
+      },
+      {
+        "item": "Benjo",
+        "price": "RM 3.00",
+        "description": "A popular Malaysian street food with a fried egg and sauces",
+        "ingredients": "Bread, fried egg, mayonnaise, ketchup, chili sauce",
+        "calories": 300,
+        "allergy_info": "Contains egg",
+        "add-on": "Add cheese for RM 1.00",
+        "prep_time": "5 minutes"
+      },
+      {
+        "item": "Spaghetti",
+        "options": ["Spaghetti Aglio Olio", "Spaghetti Bolognese", "Spaghetti Carbonara"],
+        "price": "RM 8.00",
+        "description": "A classic Italian pasta dish with various sauces",
+        "ingredients": "Spaghetti, garlic, olive oil, chili flakes, meat sauce, cream",
+        "calories": 700,
+        "allergy_info": "Contains gluten and dairy",
+        "prep_time": "20 minutes"
+      },
+      {
+        "item": "Shawarma Wrap",
+        "options": ["Chicken Wrap", "Beaf Wrap"],
+        "price": "RM 6.50",
+        "description": "A Middle Eastern wrap with grilled meat and vegetables",
+        "ingredients": "Wrap, grilled chicken/beef, lettuce, tomato, garlic sauce",
+        "calories": 500,
+        "allergy_info": "Contains gluten and garlic",
+        "prep_time": "10 minutes"
+      },
+      {
+        "item": "Chicken Chop",
+        "price": "RM 8.00",
+        "description": "A grilled chicken chop served with fries and salad",
+        "ingredients": "Grilled chicken, fries, salad, barbecue sauce",
+        "calories": 800,
+        "allergy_info": "Contains gluten and chicken",
+        "prep_time": "20 minutes"
+      },
+      {
+        "item": "Fries",
+        "price": "RM 4.00",
+        "description": "Crispy fried potatoes served with ketchup",
+        "ingredients": "Potatoes, oil, salt",
+        "calories": 300,
+        "allergy_info": "Contains gluten",
+        "prep_time": "5 minutes"
+      },
+      {
+        "item": "Waffles",
+        "options": ["Peanut Waffles", "Chocolate Waffles", "Strawberry Waffles", "Blueberry Waffles", "Kaya Waffles", "butter Waffles", "Milk Waffles"],
+        "price": "RM 4.00",
+        "description": "A sweet dessert made with batter and served with toppings",
+        "ingredients": "Waffle batter, peanut butter, chocolate syrup, strawberry syrup, blueberry syrup, kaya, butter",
+        "calories": 400,
+        "allergy_info": "Contains gluten and dairy",
+        "add-on": "Add oreo for RM 0.50, add cheese for RM 1.00",
+        "prep_time": "10 minutes"
+      },
+      {
+        "item": "Ice Blended",
+        "options": ["Chocolate Ice Blended", "Strawberry Ice Blended", "Blueberry Ice Blended", "Mocha Ice Blended", "Vanilla Ice Blended", "Tiramisu Ice Blended", "Caramel latte Ice Blended", "cappuccino Ice Blended", "Hazelnut Ice Blended", "Milo Ice Blended", "Mango Ice Blended", "White coffee Ice Blended", "green tea Ice Blended", "yogurt Ice Blended"],
+        "price": "RM 4.00",
+        "description": "A refreshing drink made with blended ice and various flavors",
+        "ingredients": "Ice, chocolate syrup, strawberry syrup, blueberry syrup, mocha syrup, vanilla syrup, tiramisu syrup, caramel syrup, cappuccino syrup, hazelnut syrup, milo powder, mango puree, white coffee powder, green tea powder, yogurt powder",
+        "calories": 300,
+        "allergy_info": "Contains gluten and dairy",
+        "add-on": "Add whipped cream for RM 1.00, add oreo for RM 0.50, add boba for RM 1.00, add jelly for RM 0.50",
+        "prep_time": "5 minutes"
+      },
+      {
+        "item": "Roti Canai",
+        "price": "RM 1.50",
+        "description": "A traditional Malaysian flatbread served with curry or dhal",
+        "ingredients": "Flour, water, ghee, salt",
+        "calories": 300,
+        "allergy_info": "Contains gluten and dairy",
+        "add-on": "Add egg for RM 1.00(roti telur), add butter for RM 1.00(roti planta), add sugar for RM 0.50(roti tisu)",
+        "prep_time": "5 minutes"
+      }
+    ]
+  }
+}
