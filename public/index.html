@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBSB Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <img src="/public/images/logo.png" alt="RBSB Cafe">
+        <nav>
+            <ul>
+                <li><a href="/public/index.html" class="active">Home</a></li>
+                <li><a href="/public/aboutus/aboutus.html">About Us</a></li>
+                <li><a href="/public/menu/menu.html">Menu</a></li>
+                <li><a href="/public/contactus/contactus.html">Contact Us</a></li>
+                <li><a href="/public/ourteam/ourteam.html">Our Team</a></li>
+            </ul>
+        </nav>
+        <label class="dark-mode-toggle">
+            <span class="icon">🌙</span>
+            <input type="checkbox" id="darkModeToggle">
+            <span class="switch"></span>
+        </label> 
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>RBSB.</h1>
+            <p>Brings hearty, affordable meals right to your hostel.</p>
+            <a href="/public/aboutus/aboutus.html" class="cta-button">About Us</a>
+        </div>
+    </section>
+
+    <section class="popular-section">
+        <div class="popular-header">
+            <h2>Our <span>Popular</span> Items</h2>
+            <p>Try our popular items, crafted with fresh, irresistible flavors.</p>
+            <a href="/public/menu/menu.html" class="view-all-btn">View All ➔</a>
+        </div>
+        
+        <div class="popular-grid">
+            <div class="item-card">
+                <img src="images/nasiayamgeprek.jpg" alt="Nasi Ayam Geprek">
+                <div class="item-info">
+                <h3>Nasi Ayam Geprek</h3>
+                <p>Free Drink</p>
+                </div>
+            </div>
+        
+            <div class="item-card">
+                <img src="images/claypotrice.png" alt="Claypot">
+                <div class="item-info">
+                <h3>Claypot</h3>
+                <p>Only Available on Weekend</p>
+                </div>
+            </div>
+        
+            <div class="item-card">
+                <img src="images/kerabu.jpg" alt="Nasi Kerabu">
+                <div class="item-info">
+                <h3>Nasi Kerabu</h3>
+                <p>Free Drink</p>
+                </div>
+            </div>
+        
+            <div class="item-card">
+                <img src="images/waffle.png" alt="Waffle">
+                <div class="item-info">
+                <h3>Waffle</h3>
+                <p>Only Available from 3pm until 10pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+        <button class="nav prev">&#10094;</button>
+
+        <div class="testimonial">
+            <img id="avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" />
+            <p id="quote">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aperiam, saepe provident dolorem a quaerat quo error facere nihil deleniti eligendi ipsum adipisci, fugit, architecto amet asperiores doloremque deserunt eum nemo.
+            </p>
+            <div class="quote-icon">❝</div>
+            <h3 id="name">Marnie Lotter</h3>
+            <span id="position">Web Developer</span>
+        </div>
+
+        <button class="nav next">&#10095;</button>
+        </div>
+
+        <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+      
+            <!-- Logo and About -->
+            <div class="footer-box">
+                <div class="footer-logo">
+                    <img src="/public/images/logo.png" alt="RBSB Logo">
+                    <h2><span style="color:black;">RBSB</span><span style="color:orange;">Cafe</span></h2>
+                </div>
+                <p>Join us for exclusive updates, tasty offers, and fresh meals right to your hostel.</p>
+                <div class="social-icons" style="margin-top:15px;">
+                <a href="https://www.facebook.com/rbsbcafe" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="/public/images/facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com/rbsbcafe" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="/public/images/twitter-icon.png" alt="Twitter / X">
+                </a>
+                <a href="https://www.instagram.com/rbsbcafe" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="/public/images/instagram-icon.png" alt="Instagram">
+                </a>
+                </div>
+            </div>
+        
+            <!-- Explore Links -->
+            <div class="footer-box">
+                <h3>Explore</h3>
+                <a href="/public/index.html">Home</a><br>
+                <a href="/public/aboutus/aboutus.html">About Us</a><br>
+                <a href="/public/aboutus/aboutus.html">Menu</a><br>
+
+                <a href="/public/contactus/contactus.html">Contact Us</a><br>
+                <a href="/public/ourteam/ourteam.html">Our Team</a>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>📍 Gambang, Pahang</p>
+                <p>📞 012-3456789</p>
+                <p>📧 rbsb@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <div 
+        class="footer-bottom">&copy; 2025 RBSB Cafe | All Rights Reserved
+    </div>
+
+    <script src="script.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

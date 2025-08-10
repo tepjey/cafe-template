@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBSB Cafe</title>
+    <link rel="stylesheet" href="stylemenu.css">
+    <link rel="stylesheet" href="/public/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header class="navbar">
+        <img src="/public/images/logo.png" alt="RBSB Cafe">
+        <nav>
+            <ul>
+                <li><a href="/public/index.html">Home</a></li>
+                <li><a href="/public/aboutus/aboutus.html">About Us</a></li>
+                <li><a href="/public/menu/menu.html"  class="active">Menu</a></li>
+                <li><a href="/public/contactus/contactus.html">Contact Us</a></li>
+                <li><a href="/public/ourteam/ourteam.html">Our Team</a></li>
+            </ul>
+        </nav>
+        <label class="dark-mode-toggle">
+            <span class="icon">🌙</span>
+            <input type="checkbox" id="darkModeToggle">
+            <span class="switch"></span>
+        </label> 
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <input type="text" placeholder="🔍 Search food..." id="searchInput" />
+            <div class="filters">
+                <label for="budgetRange"><b>Enter your budget:<br>RM <span id="budgetValue">1</span></b></label>
+                <div class="budget-slider">
+                    <input type="range" id="budgetRange" min="0" max="100" value="0" />
+                </div>
+                <br>
+                <label><b>Mode of Order:</b></label>
+                <div class="order-mode">
+                <button class="order-btn" data-type="takeaway">Take Order</button>
+                <button class="order-btn" data-type="dinein">Dine-In</button>
+                </div>
+                <br>
+                <label><b>Sort By:</b></label>
+                <select id="sortSelect">
+                <option value="relevance">Relevance</option>
+                <option value="popularity">Popularity</option>
+                <option value="priceLow">Price (Low to High)</option>
+                <option value="priceHigh">Price (High to Low)</option>
+                <option value="caloriesLow">Calories (Low to High)</option>
+                <option value="caloriesHigh">Calories (High to Low)</option>
+                <option value="spicyLow">Spice Level (Low to High)</option>
+                <option value="spicyHigh">Spice Level (High to Low)</option>
+                <option value="prepLow">Prep Time (Low to High)</option>
+                <option value="prepHigh">Prep Time (High to Low)</option>
+                </select>
+                <button onclick="applyFilters()" class="apply-btn">Apply</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+        <div class="header">
+            <h1>Our <span class="highlight">Menu</span></h1>
+            <p>RBSB Café is a casual and affordable spot offering a diverse menu<br>featuring Malaysian, Indonesian, and international dishes.</p>
+        </div>
+
+        <div class="promo-banner">
+            🎉 <strong>Happy Hour Promo!</strong> <br>Enjoy 20% off all meals<br><b>(3:00 PM - 5:00 PM)</b>
+        </div>
+
+        <div class="category-tabs">
+            <button class="tab active" id="All">All</button>
+            <button class="tab" id="Main Dish">Main Dishes</button>
+            <button class="tab" id="Noodles">Noodles</button>
+            <button class="tab" id="Wraps">Wraps</button>
+            <button class="tab" id="Snacks">Snacks</button>
+            <button class="tab" id="Beverages">Beverages</button>
+            <button class="tab" id="Desserts">Desserts</button>
+        </div>
+
+        <div id="menu-list"></div>
+        </main>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2 id="modal-title"></h2>
+        <img id="modal-img" src="" alt="">
+        <p><strong>Description:</strong> <span id="modal-desc"></span></p>
+        <p><strong>Ingredients:</strong> <span id="modal-ing"></span></p>
+        <p><strong>Price:</strong> RM <span id="modal-price"></span></p>
+        <p><strong>Allergy Information:</strong> <span id="modal-allergy"></span></p>
+        <p><strong>Spice Level:</strong> <span id="modal-spice"></span></p>
+        <p><strong>Prep Time:</strong> <span id="modal-preptime"></span> minutes</p>
+        <p><strong>Calories:</strong> <span id="modal-calories"></span> kcal</p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+      
+            <!-- Logo and About -->
+            <div class="footer-box">
+                <div class="footer-logo">
+                    <img src="/public/images/logo.png" alt="RBSB Logo">
+                    <h2><span style="color:black;">RBSB</span><span style="color:orange;">Cafe</span></h2>
+                </div>
+                <p>Join us for exclusive updates, tasty offers, and fresh meals right to your hostel.</p>
+                <div class="social-icons" style="margin-top:15px;">
+                <a href="https://www.facebook.com/rbsbcafe" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="/public/images/facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com/rbsbcafe" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="/public/images/twitter-icon.png" alt="Twitter / X">
+                </a>
+                <a href="https://www.instagram.com/rbsbcafe" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <img src="/public/images/instagram-icon.png" alt="Instagram">
+                </a>
+                </div>
+            </div>
+        
+            <!-- Explore Links -->
+            <div class="footer-box">
+                <h3>Explore</h3>
+                <a href="/public/index.html">Home</a><br>
+                <a href="/public/aboutus/aboutus.html">About Us</a><br>
+                <a href="/public/aboutus/aboutus.html">Menu</a><br>
+                <a href="/public/contactus/contactus.html">Contact Us</a><br>
+                <a href="/public/ourteam/ourteam.html">Our Team</a>
+            </div>
+        
+            <!-- Contact Info -->
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>📍 Gambang, Pahang</p>
+                <p>📞 012-3456789</p>
+                <p>📧 rbsb@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <div 
+        class="footer-bottom">&copy; 2025 RBSB Cafe | All Rights Reserved
+    </div>
+    <script src="menu.js"></script>
+</body>
+</html>
