@@ -92,7 +92,7 @@ nav a.active, nav a:hover {
     position: relative;
     height: 100vh; /* Full screen height */
     width: 100%;
-    background: url('./images/image2.jpeg') no-repeat center center/cover;
+    background: url('/rbsb-website/images/image2.jpeg') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -441,7 +441,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: url('./images/image3.jpg');
+    background-image: url('/rbsb-website/images/image3.jpg');
     border-top: 5px solid #f26522;
     background-repeat: no-repeat;
     background-size: cover;

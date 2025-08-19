@@ -16,7 +16,7 @@
             "order_mode": ["takeaway, dinein"]
             },
             {
-            "image": "./images/nasiayamgeprek.jpg",
+            "image": "/rbsb-website/images/nasiayamgeprek.jpg",
             "item": "Nasi Ayam Geprek",
             "price": 7.00,
             "description": "A spicy version of Nasi Ayam with a crispy fried chicken and sambal geprek",
@@ -44,7 +44,7 @@
             "order_mode": ["takeaway", "dinein"]
             },
             {
-            "image": "./images/claypotrice.png",
+            "image": "/rbsb-website/images/claypotrice.png",
             "item": "Claypot",
             "options": ["rice", "noodles"],
             "price": 6.00,
@@ -59,7 +59,7 @@
             "order_mode": "dinein"
             },
             {
-            "image": "./images/kerabu.jpg",
+            "image": "/rbsb-website/images/kerabu.jpg",
             "item": "Nasi Kerabu",
             "price": 6.50,
             "description": "A traditional Malaysian rice dish with herbs and spices",
@@ -283,7 +283,7 @@
             "order_mode": ["takeaway", "dinein"]
             },
             {
-            "image": "./images/waffle.png",
+            "image": "/rbsb-website/images/waffle.png",
             "item": "Waffles",
             "options": ["Peanut Waffles", "Chocolate Waffles", "Strawberry Waffles", "Blueberry Waffles", "Kaya Waffles", "butter Waffles", "Milk Waffles"],
             "price": 4.00,
